@@ -5,7 +5,7 @@ public class Student {
     private String name;
     private String surname;
     private String dateOfBirth;
-    private int studentdID;
+    private int studentID;
 
     public String getName() {
         return name;
@@ -31,11 +31,11 @@ public class Student {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public int getStudentdID() {
-        return studentdID;
+    public int getStudentID() {
+        return studentID;
     }
 
-    public void setStudentdID(int studentdID) {
-        this.studentdID = studentdID;
+    public void setStudentID(int studentdID) {
+        this.studentID = studentdID;
     }
 }
